@@ -1,0 +1,17 @@
+# Netlify — redirections et URL sans extension
+/accueil              /index.html               301
+/le-cabinet           /cabinet.html             301
+/services             /domaines.html            301
+/domaines-intervention /domaines.html           301
+/honoraires           /modalites.html           301
+/contactez-nous       /contact.html             301
+
+/cabinet              /cabinet.html             200
+/domaines             /domaines.html            200
+/methode              /methode.html             200
+/modalites            /modalites.html           200
+/contact              /contact.html             200
+/mentions-legales     /mentions-legales.html    200
+/confidentialite      /confidentialite.html     200
+
+/*                    /404.html                 404

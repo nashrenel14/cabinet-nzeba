@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr" class="js-off">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page introuvable — Cabinet Nzeba</title>
+<meta name="description" content="La page demandée n’existe pas ou a été déplacée.">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#1A1918">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/monogramme.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&amp;family=Jost:wght@300;400;500&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/nzeba.css?v=5">
+<style>
+  body { background: var(--noir); color: var(--ivoire); }
+  .erreur { min-height: 100svh; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden; padding-block: 4rem; }
+</style>
+<script>document.documentElement.classList.remove('js-off');</script>
+</head>
+<body>
+
+<main class="erreur">
+  <div class="ouverture__fond" aria-hidden="true"></div>
+  <div class="ouverture__grain" aria-hidden="true"></div>
+  <img class="ouverture__filigrane" src="assets/img/monogramme-negatif.png" alt="" aria-hidden="true">
+
+  <div class="enveloppe" style="position:relative; z-index:1;">
+    <span class="libelle">Erreur 404</span>
+    <h1 class="titre titre--1" style="margin-top:1.75rem;">Page introuvable</h1>
+    <p class="lede" style="margin-top:1.75rem; max-width:44ch; color:rgba(237,234,227,0.85);">
+      La page demandée n’existe pas, ou n’est plus accessible à cette adresse.
+    </p>
+
+    <hr class="filet" style="margin:3rem 0 2rem; background:rgba(237,234,227,0.2);">
+
+    <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+      <a class="bouton bouton--clair" href="index.html">
+        Retour à l’accueil
+        <svg class="bouton__fleche" width="20" height="8" viewBox="0 0 20 8" fill="none" aria-hidden="true"><path d="M0 4h18M14.5 0.5 18.5 4l-4 3.5" stroke="currentColor"/></svg>
+      </a>
+      <a class="bouton bouton--clair" href="contact.html">Prendre contact</a>
+    </div>
+
+    <nav aria-label="Plan du site" style="margin-top:3rem;">
+      <span class="libelle libelle--gris">Aller directement à</span>
+      <ul class="pied__liste" style="margin-top:1.25rem; display:flex; gap:1.75rem; flex-wrap:wrap;">
+        <li style="margin:0;"><a href="cabinet.html">Le cabinet</a></li>
+        <li style="margin:0;"><a href="domaines.html">Domaines</a></li>
+        <li style="margin:0;"><a href="methode.html">Méthode</a></li>
+        <li style="margin:0;"><a href="modalites.html">Modalités</a></li>
+      </ul>
+    </nav>
+  </div>
+</main>
+
+<script src="assets/js/nzeba.js?v=5" defer></script>
+</body>
+</html>

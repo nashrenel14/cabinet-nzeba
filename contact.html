@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="fr" class="js-off">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Cabinet Nzeba</title>
+<meta name="description" content="Prendre contact avec le Cabinet Nzeba. Premier entretien confidentiel, sans frais et sans engagement. Réponse sous 48 heures ouvrées.">
+<link rel="canonical" href="https://www.cabinetnzeba.com/contact.html">
+<meta name="theme-color" content="#D5D4D0">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Cabinet Nzeba">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Contact — Cabinet Nzeba">
+<meta property="og:description" content="Premier entretien confidentiel, sans frais et sans engagement. Réponse sous 48 heures ouvrées.">
+<meta property="og:url" content="https://www.cabinetnzeba.com/contact.html">
+<meta property="og:image" content="https://www.cabinetnzeba.com/assets/img/logo.png">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/monogramme.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&amp;family=Jost:wght@300;400;500&amp;family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/nzeba.css?v=5">
+<script>document.documentElement.classList.remove('js-off');</script>
+</head>
+<body>
+
+<a class="saut" href="#contenu">Aller au contenu</a>
+
+<header class="entete entete--sombre" data-entete>
+  <div class="entete__inner">
+    <a class="marque" href="index.html" aria-label="Cabinet Nzeba — accueil">
+      <img class="marque__signe marque__signe--positif" src="assets/img/monogramme.png" alt="" width="30" height="33">
+      <img class="marque__signe marque__signe--negatif" src="assets/img/monogramme-negatif.png" alt="" width="30" height="33">
+      <span class="marque__nom">Cabinet Nzeba</span>
+    </a>
+    <nav class="nav nav--bureau" aria-label="Navigation principale">
+      <a class="nav__lien" href="cabinet.html">Le cabinet</a>
+      <a class="nav__lien" href="domaines.html">Domaines</a>
+      <a class="nav__lien" href="methode.html">Méthode</a>
+      <a class="nav__lien" href="modalites.html">Modalités</a>
+      <a class="bouton-nav" href="contact.html" aria-current="page">Prendre contact</a>
+    </nav>
+    <button class="burger" data-burger type="button" aria-expanded="false" aria-controls="tiroir" aria-label="Ouvrir le menu de navigation">
+      <span class="burger__trait"></span>
+    </button>
+  </div>
+</header>
+
+<div class="tiroir" id="tiroir" data-tiroir data-ouvert="false">
+  <nav aria-label="Navigation principale (mobile)">
+    <ul class="tiroir__liste">
+      <li><a class="tiroir__lien" href="index.html"><span>01</span><span>Accueil</span></a></li>
+      <li><a class="tiroir__lien" href="cabinet.html"><span>02</span><span>Le cabinet</span></a></li>
+      <li><a class="tiroir__lien" href="domaines.html"><span>03</span><span>Domaines</span></a></li>
+      <li><a class="tiroir__lien" href="methode.html"><span>04</span><span>Méthode</span></a></li>
+      <li><a class="tiroir__lien" href="modalites.html"><span>05</span><span>Modalités</span></a></li>
+      <li><a class="tiroir__lien" href="contact.html"><span>06</span><span>Contact</span></a></li>
+    </ul>
+  </nav>
+  <div class="tiroir__pied">
+    contact@cabinetnzeba.com<br>
+    +243 000 000 000<br>
+    Sur rendez-vous uniquement
+  </div>
+</div>
+
+<main id="contenu">
+
+  <section class="ouverture ouverture--breve">
+    <div class="ouverture__fond" aria-hidden="true"></div>
+    <div class="ouverture__grain" aria-hidden="true"></div>
+    <img class="ouverture__filigrane" src="assets/img/monogramme-negatif.png" alt="" aria-hidden="true">
+    <div class="enveloppe ouverture__inner">
+      <nav class="fil" aria-label="Fil d’Ariane">
+        <a href="index.html">Accueil</a>
+        <span aria-hidden="true">—</span>
+        <span>Contact</span>
+      </nav>
+      <h1 class="titre titre--1 ouverture__titre">Prendre contact</h1>
+      <p class="lede ouverture__lede">
+        Exposez votre demande en quelques lignes. Le cabinet vous répond sous quarante-huit heures
+        ouvrées et vous propose, s’il y a lieu, un entretien confidentiel.
+      </p>
+      <div class="ouverture__bas">
+        <span class="libelle libelle--gris">Sans frais · sans engagement</span>
+        <span class="ouverture__pagination">06 — 06</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULAIRE -->
+  <section class="section" aria-labelledby="t-formulaire">
+    <div class="enveloppe duo">
+      <div class="duo__appel">
+        <div class="appel__num">01</div>
+        <span class="libelle appel__titre" id="t-formulaire">Votre demande</span>
+        <p class="appel__note">
+          Ne joignez aucune pièce à ce stade. Les documents ne sont échangés qu’après signature
+          de l’engagement de confidentialité.
+        </p>
+      </div>
+
+      <div>
+        <form class="formulaire" data-formulaire name="contact" method="POST" novalidate>
+          <!-- Point de collecte : voir README pour l'activation (Netlify, Formspree…) -->
+          <input type="hidden" name="form-name" value="contact">
+          <p class="miel" aria-hidden="true">
+            <label>Ne pas remplir <input name="societe-bis" tabindex="-1" autocomplete="off"></label>
+          </p>
+
+          <div class="champs-2">
+            <div class="champ">
+              <label class="champ__label" for="nom">Nom et prénom <span class="requis">*</span></label>
+              <input type="text" id="nom" name="nom" required autocomplete="name" minlength="2">
+              <span class="champ__erreur" data-erreur role="alert"></span>
+            </div>
+            <div class="champ">
+              <label class="champ__label" for="email">Adresse électronique <span class="requis">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+              <span class="champ__erreur" data-erreur role="alert"></span>
+            </div>
+          </div>
+
+          <div class="champs-2">
+            <div class="champ">
+              <label class="champ__label" for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" autocomplete="tel" placeholder="+243 …">
+              <span class="champ__aide">Facultatif. Utilisé uniquement si vous le souhaitez.</span>
+            </div>
+            <div class="champ">
+              <label class="champ__label" for="objet">Nature de la demande <span class="requis">*</span></label>
+              <select id="objet" name="objet" required>
+                <option value="" selected disabled>Choisir…</option>
+                <option>Organisation des affaires privées</option>
+                <option>Coordination de projet confidentiel</option>
+                <option>Mise en relation</option>
+                <option>Assistance exécutive</option>
+                <option>Mission particulière</option>
+                <option>Autre demande</option>
+              </select>
+              <span class="champ__erreur" data-erreur role="alert"></span>
+            </div>
+          </div>
+
+          <div class="champ">
+            <label class="champ__label" for="message">Votre demande <span class="requis">*</span></label>
+            <textarea id="message" name="message" required minlength="30" rows="7"
+              placeholder="Quelques lignes suffisent : l’objet, le contexte et l’échéance éventuelle."></textarea>
+            <span class="champ__aide">Trente caractères au minimum. N’indiquez aucune donnée sensible à ce stade.</span>
+            <span class="champ__erreur" data-erreur role="alert"></span>
+          </div>
+
+          <div class="champ">
+            <label class="champ__label" for="delai">Échéance envisagée</label>
+            <select id="delai" name="delai">
+              <option value="" selected>Non déterminée</option>
+              <option>Sous huit jours</option>
+              <option>Ce mois-ci</option>
+              <option>Ce trimestre</option>
+              <option>Au-delà</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="case" for="consentement">
+              <input type="checkbox" id="consentement" name="consentement" required>
+              <span class="case__boite" aria-hidden="true"></span>
+              <span class="case__texte">
+                J’accepte que les informations transmises soient utilisées pour le traitement de ma
+                demande, conformément à la
+                <a href="confidentialite.html" style="border-bottom:1px solid var(--ligne);">politique de confidentialité</a>.
+                <span class="requis" style="color:var(--accent-texte);">*</span>
+              </span>
+            </label>
+          </div>
+          <span class="champ__erreur" data-erreur role="alert"></span>
+
+          <div>
+            <button class="bouton bouton--plein" type="submit">
+              Adresser ma demande
+              <svg class="bouton__fleche" width="20" height="8" viewBox="0 0 20 8" fill="none" aria-hidden="true"><path d="M0 4h18M14.5 0.5 18.5 4l-4 3.5" stroke="currentColor"/></svg>
+            </button>
+          </div>
+
+          <p class="petit gris">
+            Les champs marqués d’un astérisque sont nécessaires au traitement de la demande.
+            Aucune information n’est communiquée à des tiers.
+          </p>
+        </form>
+
+        <div class="confirmation" data-confirmation hidden>
+          <span class="libelle">Demande enregistrée</span>
+          <h2 class="titre titre--3" style="margin-top:1rem;">Votre demande est prête à être adressée</h2>
+          <p class="texte" style="margin-top:1rem;">
+            Le récapitulatif de votre demande a été composé. Confirmez son envoi par le lien ci-dessous ;
+            il ouvrira votre messagerie avec le message déjà rédigé. Le cabinet vous répond sous
+            quarante-huit heures ouvrées.
+          </p>
+          <div style="margin-top:1.75rem; display:flex; gap:1rem; flex-wrap:wrap;">
+            <a class="bouton bouton--plein" data-mailto href="mailto:contact@cabinetnzeba.com">
+              Confirmer l’envoi
+              <svg class="bouton__fleche" width="20" height="8" viewBox="0 0 20 8" fill="none" aria-hidden="true"><path d="M0 4h18M14.5 0.5 18.5 4l-4 3.5" stroke="currentColor"/></svg>
+            </a>
+            <button class="bouton" type="button" data-reprendre>Modifier ma demande</button>
+          </div>
+          <hr class="filet" style="margin:1.75rem 0;">
+          <p class="petit gris">
+            Vous pouvez également écrire directement à
+            <a href="mailto:contact@cabinetnzeba.com" style="border-bottom:1px solid var(--ligne);">contact@cabinetnzeba.com</a>
+            ou appeler le <a href="tel:+243000000000" style="border-bottom:1px solid var(--ligne);">+243 000 000 000</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- COORDONNÉES -->
+  <section class="section section--filet" aria-labelledby="t-coordonnees">
+    <div class="enveloppe duo">
+      <div class="duo__appel">
+        <div class="appel__num">02</div>
+        <span class="libelle appel__titre" id="t-coordonnees">Coordonnées</span>
+      </div>
+      <div class="pile" data-groupe>
+        <dl class="coordonnees" data-apparait>
+          <div class="coordonnee">
+            <dt class="libelle libelle--gris">Adresse électronique</dt>
+            <dd class="coordonnee__valeur"><a href="mailto:contact@cabinetnzeba.com">contact@cabinetnzeba.com</a></dd>
+          </div>
+          <div class="coordonnee">
+            <dt class="libelle libelle--gris">Téléphone</dt>
+            <dd class="coordonnee__valeur"><a href="tel:+243000000000">+243 000 000 000</a></dd>
+          </div>
+          <div class="coordonnee">
+            <dt class="libelle libelle--gris">Cabinet</dt>
+            <dd class="coordonnee__valeur">Kinshasa, République démocratique du Congo<br>Adresse communiquée lors de la prise de rendez-vous.</dd>
+          </div>
+          <div class="coordonnee">
+            <dt class="libelle libelle--gris">Réception</dt>
+            <dd class="coordonnee__valeur">Sur rendez-vous uniquement, du lundi au vendredi.<br>Entretiens à distance possibles.</dd>
+          </div>
+          <div class="coordonnee">
+            <dt class="libelle libelle--gris">Langues</dt>
+            <dd class="coordonnee__valeur">Français, anglais.</dd>
+          </div>
+        </dl>
+
+        <div class="engagement" data-apparait>
+          <h2 class="engagement__titre">Avant d’écrire</h2>
+          <ul class="liste-puces" style="margin-top:1.25rem;">
+            <li>N’adressez aucune pièce ni donnée sensible par ce formulaire.</li>
+            <li>Un engagement de confidentialité est signé avant tout échange de documents.</li>
+            <li>Le premier entretien est sans frais et n’engage aucune des deux parties.</li>
+            <li>Le cabinet décline les dossiers qu’il ne peut conduire correctement, et le dit.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="pied">
+  <div class="enveloppe">
+    <div class="pied__haut">
+      <div>
+        <img class="pied__signe" src="assets/img/monogramme-negatif.png" alt="Monogramme Cabinet Nzeba" width="46" height="51">
+        <div class="pied__nom">Cabinet Nzeba</div>
+        <div class="pied__sous">Gestion privée &amp; assistance</div>
+        <p class="pied__note">
+          Le cabinet reçoit sur rendez-vous uniquement. Toute demande adressée par le formulaire de
+          contact est traitée de manière confidentielle.
+        </p>
+      </div>
+      <div class="pied__colonne">
+        <span class="libelle">Le cabinet</span>
+        <ul class="pied__liste">
+          <li><a href="cabinet.html">Le cabinet</a></li>
+          <li><a href="domaines.html">Domaines d’intervention</a></li>
+          <li><a href="methode.html">Méthode</a></li>
+          <li><a href="modalites.html">Modalités &amp; honoraires</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="pied__colonne">
+        <span class="libelle">Coordonnées</span>
+        <ul class="pied__liste">
+          <li><a href="mailto:contact@cabinetnzeba.com">contact@cabinetnzeba.com</a></li>
+          <li><a href="tel:+243000000000">+243 000 000 000</a></li>
+          <li><span style="font-size:0.9375rem; color:rgba(237,234,227,0.82);">Kinshasa, RDC</span></li>
+          <li><span style="font-size:0.9375rem; color:rgba(237,234,227,0.82);">Sur rendez-vous uniquement</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pied__bas">
+      <span>© <span data-annee>2026</span> Cabinet Nzeba</span>
+      <nav aria-label="Informations légales">
+        <a href="mentions-legales.html">Mentions légales</a>
+        <a href="confidentialite.html">Confidentialité</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/nzeba.js?v=5" defer></script>
+</body>
+</html>
